@@ -1,0 +1,52 @@
+[
+    {
+        "model": "levelupapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Pikachu and Satan Too",
+            "maker": "Funimation",
+            "number_of_players": 2,
+            "skill_level": 420,
+            "game_type": 1,
+            "gamer": 1
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 2,
+        "fields": {
+            "title": "Shrek and Donkey go to Azerbaijan",
+            "maker": "Cinco",
+            "number_of_players": 5,
+            "skill_level": 69,
+            "game_type": 2,
+            "gamer": 1
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 3,
+        "fields": {
+            "title": "My New Pep Pep",
+            "maker": "Cinco",
+            "number_of_players": 1,
+            "skill_level": 666,
+            "game_type": 3,
+            "gamer": 1
+        }
+    },
+    {
+        "model": "levelupapi.game",
+        "pk": 4,
+        "fields": {
+            "title": "T'urd",
+            "maker": "Cinco",
+            "number_of_players": 1,
+            "skill_level": 420,
+            "game_type": 3,
+            "gamer": 1
+        }
+    }
+]
+ 
+     

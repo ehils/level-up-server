@@ -1,0 +1,46 @@
+[
+    {
+        "model": "levelupapi.event",
+        "pk": 1,
+        "fields": {
+            "game": 1,
+            "description": "Water Shellos Prinplup Elekid Seismitoad Youngster wants to fight Dragon. Flying Tepig Drilbur Pokemon Heroes Serperior Parasect Celadon Department Store. Blizzard Vanilluxe Snover Mime Jr Vigoroth Whismur Rapidash. Silver Yamask Grumpig Marsh Badge Ludicolo Snubbull Celadon City. Silver Hitmonlee Snorlax in voluptate velit esse cillum dolore eu fugiat nulla pariatur Pokedex Flying Ekans.",
+            "date": "2022-06-05",
+            "time": "12:12:12",
+            "organizer": 1
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+            "game": 2,
+            "description": "Pokem ipsum dolor sit amet Floatzel Crawdaunt Dragonite Leavanny Blue Mienfoo. Thunder Badge Team Rocket Alakazam Ground Togepi Vaporeon Ludicolo. Vine Whip Vanillish Volcano Badge Pokemon, it's you and me Gastly Pokemon Master Marowak. Splash Beldum Trubbish Hitmonlee Exploud Granbull Kakuna. Team Rocket Hidden Machine Electivire the power that's inside Sandshrew Whismur Weezing.",
+            "date": "2032-07-05",
+            "time": "12:12:12",
+            "organizer": 1
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 3,
+        "fields": {
+            "game": 3,
+            "description": "Pika-pi Reshiram Golduck Chimecho Croconaw Hoothoot Rampardos. Glacier Badge Probopass Dewott Leafeon Dragon to extend our reach to the stars above Omastar. Ut enim ad minim veniam Viridian City Dark Mantyke Venomoth Spinarak Rotom. Ice Vaporeon Basculin Kakuna Klink Throh Miltank. Gotta catch 'em all Pansage Aggron Trapinch Shellder Pignite they're comfy and easy to wear.",
+            "date": "2666-06-06",
+            "time": "12:12:12",
+            "organizer": 1
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 4,
+        "fields": {
+            "game": 4,
+            "description": "Marsh Badge Hoppip Electabuzz Yanma Dig Typhlosion Yamask. Wartortle Deoxys Ice Snover Technical Machine Gabite Wooper. Excepteur sint occaecat cupidatat non proident Jigglypuff Arceus Red James Zubat Stantler. Pokemon 4Ever Darumaka Forretress to extend our reach to the stars above Gible Ursaring Abomasnow. Rock duis aute irure dolor in reprehenderit Roserade Garchomp Ciccino Flygon Sandile.",
+            "date": "2420-08-05",
+            "time": "12:12:12",
+            "organizer": 1
+        }
+    }
+]
