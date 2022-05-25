@@ -49,8 +49,16 @@ class EventView(ViewSet):
         """
         gamer = Gamer.objects.get(user=request.auth.user)
         serializer = CreateEventSerializer(data=request.data)
+        # checkpoint to make sure incoming data is valid (meets the requirements of the model)
+        # if data bad, exception is raised
+            # incorrect data types, too long, no data
+            # wrong data type (string when supposed to be an integer)
         serializer.is_valid(raise_exception=True)
+        # if no exceptions raised, the information is saved
         serializer.save(organizer=gamer)
+        # Id from created object
+        # instance of new object(event = EVevent(pk=serializer.data['id']))
+        # event..add(*request.data[''])
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     
     def update(self, request, pk):
@@ -91,6 +99,9 @@ class EventView(ViewSet):
 class EventSerializer(serializers.ModelSerializer):
     """JSON serializer for game types 
     """
+    
+    # to display data of a many to many relationship (ie: gamers for each event)
+    # import serializer of (gamer), add array name to fields
     class Meta:
         model = Event
         fields = ('id', 'game', 'description', 'date', 'time', 'organizer', 'attendees', 'joined' )
